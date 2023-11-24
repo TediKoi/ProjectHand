@@ -37,6 +37,15 @@ jump={
 ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Ground"
+2d_physics/layer_2="Objects"
+
+[physics]
+
+2d/physics_engine="GodotPhysics2D"
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0

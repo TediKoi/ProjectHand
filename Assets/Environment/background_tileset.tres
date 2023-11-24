@@ -1,7 +1,6 @@
-[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://bqs1g3ubq2gaa"]
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bqs1g3ubq2gaa"]
 
 [ext_resource type="Texture2D" uid="uid://dwkdxjg3osu2m" path="res://Assets/Environment/tilemap-backgrounds_packed.png" id="1_3d330"]
-[ext_resource type="Texture2D" uid="uid://bxa3hqwgf8n6" path="res://Assets/Environment/tilemap_packed.png" id="2_y52te"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8wf0c"]
 texture = ExtResource("1_3d330")
@@ -31,29 +30,9 @@ texture_region_size = Vector2i(24, 24)
 6:2/0 = 0
 7:2/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vx1yl"]
-texture = ExtResource("2_y52te")
-texture_region_size = Vector2i(18, 18)
-0:0/0 = 0
-1:0/0 = 0
-1:0/0/terrain_set = 0
-2:0/0 = 0
-2:0/0/terrain_set = 0
-3:0/0 = 0
-3:0/0/terrain_set = 0
-4:0/0 = 0
-4:0/0/terrain_set = 0
-4:1/0 = 0
-4:1/0/terrain_set = 0
-5:1/0 = 0
-5:1/0/terrain_set = 0
-5:0/0 = 0
-5:0/0/terrain_set = 0
-
 [resource]
 tile_size = Vector2i(24, 24)
 terrain_set_0/mode = 0
 terrain_set_0/terrain_0/name = "Foreground"
 terrain_set_0/terrain_0/color = Color(0.505882, 0.439216, 0.192157, 1)
 sources/0 = SubResource("TileSetAtlasSource_8wf0c")
-sources/1 = SubResource("TileSetAtlasSource_vx1yl")
